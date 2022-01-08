@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter.css.css">
+<script src="kwitter_room.js"></script>
+</head>
+
+
+
+
+<body>
+
+    <div>
+    <button id="logout"onclick="logout();">Logout</button>
+        <center>
+            <h1>	
+                Kwitter	
+            </h1>
+            <di>
+                <label>#Add Room:</label>
+                <input type="text" id="room_name" class="form-control"  placeholder="#Room Name">
+    
+            </div>
+            <button onclick="addRoom();"class="btn btn-success">#Add Room</button>
+            <h3>#TRENDINGROOMS</h3>
+            <div id="output"></div>
+        </center>
+    </div>
+</body>
+</html>
